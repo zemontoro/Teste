@@ -1,0 +1,329 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@1,100&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@200&display=swap');
+
+
+*{
+    /* padding: 0; */
+    /* box-sizing: border-box; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+#menu-principal{
+    height:100px;
+    /* background-color:#EDB506; */
+}
+/* PROFESSOR */
+.menu-principal{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    /* padding: 0; */
+    /* max-width: 1000px; */
+    /* width: auto; */
+}
+.container-textos {
+    display: flex;
+    flex-direction: column;
+}
+
+.textos-icones{
+    margin-top: 70px;
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;   
+}
+
+.texto-celular {
+    margin-left: 2vh;
+    text-align: justify;
+    max-width: 70vh;
+    font-size: 1.2rem;
+}
+/* .textos-icones p{
+    /* margin-left: 30px; */
+    /* margin-top: 20px ; */
+    
+.icones-redes-sociais{
+    margin: 0.5px;
+    margin-right: 120px;
+    
+}
+#menu-principal a{
+
+    
+    color:rgb(43, 41, 41);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: background .4s;  
+    
+}
+#menu-principal a:hover{
+
+    background-color:rgb(240, 240, 240);
+    
+    
+}
+
+/* #menu-principal ul li:last-child { */
+    /* float: right;
+    padding:10px; */
+
+    /* background-color: rgb(148, 17, 17); */
+/* } */
+#menu-principal ul li:first-child {
+    position:absolute;
+    padding:10px;
+    left: 20px;
+    
+}
+#menu-principal ul li:nth-child(2) {
+    position:absolute;
+    padding:10px;
+    left: 60px;
+    
+    /* font-size: 25px; */
+}
+#menu-principal ul li:nth-child(3) {
+    position:absolute;
+    padding:10px;
+    left: 100px;
+    /* font-size: 25px; */
+}
+
+#menu-principal ul li:nth-child(4) {
+    padding: 10%;
+    font-size: 25px;
+    padding: 5%;
+}
+/* #meio-menu{
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 2%;
+    margin-top: auto;
+    
+} */
+
+
+#btn-entrar{
+    /* border-radius: 2%;  */
+    /* position: absolute; */
+    background-image: url(./img/Login\ Icone.png);
+    background-repeat: no-repeat;
+    background-position: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    height: 35px;
+    width: 105px;   
+    margin-top: 5px;
+    float: right;
+    cursor: pointer;
+    margin-left: 100px;
+}
+#btn-entrar :hover{
+    /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); */
+}
+
+#cachorro{
+    
+    height: 350px;
+    margin-top: 180px;
+    /* float: right;
+      */
+    
+}
+#gato{
+    
+    height: 520px;   
+
+}
+.container-texto-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 120vh;
+    margin-bottom: 150px;
+}
+
+.text-menu {
+    font-size: 1.8rem;
+    font-family: 'Public Sans', sans-serif;
+    max-width: 70vh;
+}
+
+.menu-2 {
+    display: flex;
+    flex-direction: row;
+}
+#logo{
+    
+    margin-left: 550px;
+    width: 374px;
+    height: 51px;
+
+}
+
+
+#p{
+    height: 663px;
+    /* background-color:#EDB506; */
+    background: linear-gradient(180deg, #EDB506 0%, rgba(237, 181, 6, 0.947917) 56.25%, rgba(237, 181, 6, 0) 76.04%);
+}
+#container{
+    height: 670px;
+}
+#celular{
+    /* width: 30px; */
+    /* display: flex; */
+    margin-top: 50px;
+    float: left;
+    }
+
+
+
+#icon-celular{
+    
+} 
+
+ #texto-celular{
+    /* margin-top: 1001px; */
+    /* text-align: justify; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+} 
+#icon-escudo{
+    
+    /* width: 500px; */
+    /* height: 150px; */
+}
+#icon-lupa{
+    
+    /* width: 500px; */
+    /* height: 150px; */
+}
+
+#pergunta{
+    margin-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    /* width: 474px; */
+    height: 26px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000CC;
+    letter-spacing: 0.035rem;
+   
+    
+
+    font-style:inherit;
+
+}
+
+
+
+#terceira-parte{
+    background-color: #7962D9;
+    /* background-color: rgb(0, 88, 202); */
+    /* background: linear-gradient(180deg, rgba(115, 80, 255, 0) 0%, #7350FF 100%); */
+    border-radius: 450px 0px 0px 0px;
+    text-align: center;
+    height: 700px;
+    
+}
+#texto-meio-div{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color:aliceblue;
+ 
+}
+#facilidade{
+    position:absolute;
+    margin-left: 150px;
+    margin-top: 100px;
+    /* float: left; */
+}
+
+#tempo{
+    position:absolute;
+    margin-left: 550px;
+    margin-top: 100px;
+}
+
+#dinheiro{
+    position:absolute;
+    margin-left: 950px;
+    margin-top: 100px;
+}
+
+
+#beneficios-cachorro{
+    height: 670px;
+    width: 1450px;
+
+}
+
+#imagem-cachorro{
+    float: left;
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+#texto-beneficios{
+    
+    /* text-align: center; */
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    
+}
+
+#imagem-cachorro-sentado{
+    
+    float: right;
+    margin-top: 170px;
+    height: 451px;
+    float: right;
+    width: 390px;
+}
+/* #celular{
+    position: absolute;
+    height: 500px;
+    width: 150px;
+    
+    
+}
+#texto-celular{
+    margin-left: 150px;
+    height: 100px;
+}
+
+#texto-facilidades{
+    
+    float: right;
+    height: 500px;
+    
+}
+
+#texto-facilidades ul li{
+    display:flex;
+    width: 500px;
+    height: 50px;
+    margin-top: 120px;
+    margin-left: 150px;
+    align-items: center;
+    
+} */
+
+
